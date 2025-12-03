@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLUB VAUBAN - Salle de Musculation Associative</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome pour les icônes (optionnel mais recommandé pour les réseaux sociaux/contact) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Favicon: SVG généré (favicon.svg). Remplacez si vous préférez un .ico ou .png -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">CLUB <span class="accent">VAUBAN</span></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#esprit">L'Esprit</a></li>
+                    <li><a href="#activites">Espaces</a></li>
+                    <li><a href="#tarifs">Tarifs</a></li>
+                    <li><a href="#avis">Avis</a></li>
+                    <li><a href="#infos">Infos</a></li>
+                </ul>
+            </nav>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Slider -->
+    <section id="home" class="hero">
+        <div class="slider">
+            <!-- Slide 1 -->
+            <div class="slide active">
+                <div class="slide-bg" style="background-color: #1a1a1a;">
+                    <img src="./unnamed (1).webp" alt="Salle de musculation"> 
+                    
+                </div>
+                <div class="slide-content">
+                    <h1>UNE SALLE <span class="accent">ASSOCIATIVE</span></h1>
+                    <p>Musculation • Cardio • Entraide</p>
+                    <a href="#tarifs" class="btn btn-primary">REJOINDRE LE CLUB</a>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide">
+                <div class="slide-bg" style="background-color: #222;">
+                     <img src="./unnamed.webp" alt="Espace Poids Libres">
+                </div>
+                <div class="slide-content">
+                    <h1>ENTRETIEN DU CORPS ET <span class="accent">CULTURE PHYSIQUE</span></h1>
+                    <p>Matériel professionnel & Ambiance Old School</p>
+                    <a href="#activites" class="btn btn-outline">DÉCOUVRIR</a>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="slide">
+                <div class="slide-bg" style="background-color: #1a1a1a;">
+                    <img src="./téléchargement.jpg" alt="Espace Cardio">
+                </div>
+                <div class="slide-content">
+                    <h1>DÉPASSEZ VOS <span class="accent">LIMITES</span></h1>
+                    <p>Ouvert tous les jours</p>
+                    <a href="#infos" class="btn btn-primary">NOUS TROUVER</a>
+                </div>
+            </div>
+
+            <div class="slider-controls">
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section L'Esprit Asso -->
+    <section id="esprit" class="section esprit">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2>L'ESPRIT <span class="accent">ASSOCIATIF</span></h2>
+                <div class="separator"></div>
+            </div>
+            <div class="esprit-content">
+                <div class="esprit-text fade-in-up">
+                    <p>Bienvenue au CLUB VAUBAN. Ici,nous sommes une
+                        association à but non lucratif gérée par des passionnés, pour des passionnés.</p>
+                    <p>Notre philosophie est simple : <strong>Sport, Respect, Convivialité</strong>. Que vous soyez
+                        débutant ou compétiteur, jeunes ou plus âgées, vous trouverez votre place parmi nous. </p>
+                    <ul class="esprit-list">
+                        <li><i class="fas fa-check accent"></i> Ambiance authentique et bienveillante</li>
+                        <li><i class="fas fa-check accent"></i> Conseils et partage d'expérience</li>
+                        <li><i class="fas fa-check accent"></i> Tarifs accessibles à tous</li>
+                    </ul>
+                </div>
+                <div class="esprit-image fade-in-up delay-200">
+                    <div class="placeholder-box">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Activités / Espaces -->
+    <section id="activites" class="section activites">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2>NOS <span class="accent">ESPACES</span></h2>
+                <div class="separator"></div>
+                <p class="subtitle">Tout le nécessaire pour une séance complète.</p>
+            </div>
+            <div class="activites-grid">
+                <div class="activite-card fade-in-up">
+                    <div class="card-icon"><i class="fas fa-dumbbell"></i></div>
+                    <h3>POIDS LIBRES</h3>
+                    <p>Haltères jusqu'à 50kg, bancs, cages à squat. La base de la force.</p>
+                </div>
+                <div class="activite-card fade-in-up delay-100">
+                    <div class="card-icon"><i class="fas fa-running"></i></div>
+                    <h3>CARDIO-TRAINING</h3>
+                    <p>Tapis, vélos, elliptiques, rameurs. Pour le cœur et l'endurance.</p>
+                </div>
+                <div class="activite-card fade-in-up delay-200">
+                    <div class="card-icon"><i class="fas fa-cogs"></i></div>
+                    <h3>MACHINES GUIDÉES</h3>
+                    <p>Parc complet de machines pour travailler chaque muscle en isolation.</p>
+                </div>
+                <div class="activite-card fade-in-up delay-300">
+                    <div class="card-icon"><i class="fas fa-child"></i></div>
+                    <h3>ESPACE ABDOS / STRETCHING</h3>
+                    <p>Zone dédiée au gainage, aux étirements et au travail au sol.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner Amenities -->
+    <section class="amenities-banner">
+        <div class="container">
+            <div class="amenities-grid">
+                <div class="amenity-item">
+                    <div class="amenity-icon"><i class="fas fa-tools"></i></div>
+                    <h3>ACCESSOIRES</h3>
+                    <p>Ceintures, élastiques, magnésie, sangles...</p>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon"><i class="fas fa-shower"></i></div>
+                    <h3>DOUCHES</h3>
+                    <p>Douches individuelles gratuites</p>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon"><i class="fas fa-lock"></i></div>
+                    <h3>CASIERS</h3>
+                    <p>Casiers sécurisés (cadenas non fourni)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Tarifs -->
+    <section id="tarifs" class="section tarifs">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2>NOS <span class="accent">ABONNEMENTS</span></h2>
+                <div class="separator"></div>
+                <p class="subtitle">Des prix justes pour maintenir l'association.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- 4 Séances -->
+                <div class="price-card fade-in-up">
+                    <h3>DÉCOUVERTE</h3>
+                    <div class="price">10<span class="currency">€</span></div>
+                    <div class="duration">4 SÉANCES</div>
+                    <ul class="features">
+                        <li>Idéal pour tester</li>
+                        <li>Accès libre</li>
+                        <li>Valable 1 an</li>
+                    </ul>
+                </div>
+
+                <!-- 12 Séances -->
+                <div class="price-card fade-in-up delay-100">
+                    <h3>LIBERTÉ</h3>
+                    <div class="price">25<span class="currency">€</span></div>
+                    <div class="duration">12 SÉANCES</div>
+                    <ul class="features">
+                        <li>Sans engagement</li>
+                        <li>Accès libre</li>
+                        <li>Valable 1 an</li>
+                    </ul>
+                </div>
+
+                <!-- 1 Mois -->
+                <div class="price-card fade-in-up delay-200">
+                    <h3>MENSUEL</h3>
+                    <div class="price">20<span class="currency">€</span></div>
+                    <div class="duration">1 MOIS</div>
+                    <ul class="features">
+                        <li>Illimité</li>
+                        <li>Accès 7j/7</li>
+                        <li>Renouvelable</li>
+                    </ul>
+                </div>
+
+                <!-- 3 Mois -->
+                <div class="price-card featured fade-in-up delay-300">
+                    <div class="badge">POPULAIRE</div>
+                    <h3>TRIMESTRE</h3>
+                    <div class="price">50<span class="currency">€</span></div>
+                    <div class="duration">3 MOIS</div>
+                    <ul class="features">
+                        <li>Illimité</li>
+                        <li>Accès 7j/7</li>
+                        <li>16,67€ / mois</li>
+                    </ul>
+                </div>
+
+                <!-- 6 Mois -->
+                <div class="price-card fade-in-up delay-400">
+                    <h3>SEMESTRE</h3>
+                    <div class="price">90<span class="currency">€</span></div>
+                    <div class="duration">6 MOIS</div>
+                    <ul class="features">
+                        <li>Illimité</li>
+                        <li>Accès 7j/7</li>
+                        <li>15€ / mois</li>
+                    </ul>
+                </div>
+
+                <!-- 1 An -->
+                <div class="price-card fade-in-up delay-500">
+                    <h3>ANNUEL</h3>
+                    <div class="price">150<span class="currency">€</span></div>
+                    <div class="duration">1 AN</div>
+                    <ul class="features">
+                        <li>Illimité</li>
+                        <li>Accès 7j/7</li>
+                        <li>12,5€ / mois</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Avis -->
+    <section id="avis" class="section avis">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2>ILS EN <span class="accent">PARLENT</span></h2>
+                <div class="separator"></div>
+            </div>
+            <div class="avis-grid">
+                <div class="avis-card fade-in-up">
+                    <div class="stars">★★★★★</div>
+                    <p>" Petite salle familiale et sympathique,
+                Ou les prix sont très abordables."</p>
+                    <div class="author">- Jacky T.</div>
+                </div>
+                <div class="avis-card fade-in-up delay-100">
+                    <div class="stars">★★★★★</div>
+                    <p>"Salle associative qui n'a rien à voir avec les groupes standardisés.
+Propre et bonne ambiance.
+Le matériel est correct et diversifié."</p>
+                    <div class="author">- Jer D.</div>
+                </div>
+                <div class="avis-card fade-in-up delay-200">
+                    <div class="stars">★★★★★</div>
+                    <p>"Club top, super ambiance et rapport qualité /prix excellent. Foncez!."</p>
+                    <div class="author">- Dominique P.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Mur des Légendes (Bonus) -->
+    <section class="section legends">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2>MUR DES <span class="accent">LÉGENDES</span></h2>
+                <div class="separator"></div>
+                <p class="subtitle">Notre équipe.</p>
+            </div>
+            <div class="legends-grid">
+                <!-- Placeholders pour photos -->
+                <div class="legend-item fade-in-up">
+                    <div class="legend-placeholder">PHOTO</div><span>Président</span>
+                </div>
+                <div class="legend-item fade-in-up delay-100">
+                    <div class="legend-placeholder">PHOTO</div><span>Trésorier</span>
+                </div>
+                <div class="legend-item fade-in-up delay-200">
+                    <div class="legend-placeholder">PHOTO</div><span>Bénévole</span>
+                </div>
+                <div class="legend-item fade-in-up delay-300">
+                    <div class="legend-placeholder">PHOTO</div><span>Bénévole</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Infos / Contact -->
+    <section id="infos" class="section infos">
+        <div class="container">
+            <div class="infos-wrapper">
+                <div class="infos-content fade-in-up">
+                    <h2>INFOS <span class="accent">PRATIQUES</span></h2>
+                    <div class="info-block">
+                        <h3><i class="fas fa-clock accent"></i> HORAIRES</h3>
+                        <p>Lundi - Vendredi: 09h00 - 21h00</p>
+                        <p>Samedi: 09h00 - 16h00</p>
+                        <p>Dimanche: 09h00 - 12h00</p>
+                    </div>
+                    <div class="info-block">
+                        <h3><i class="fas fa-map-marker-alt accent"></i> ADRESSE</h3>
+                        <p>Centre Lowendal</p>
+                        <p>Rue du Juhel</p>
+                        <p>59530 Le Quesnoy</p>
+                    </div>
+                    <div class="info-block">
+                        <h3><i class="fas fa-envelope accent"></i> CONTACT</h3>
+                        <p>contact@club-vauban.fr</p>
+                        <p>03 27 20 57 79</p>
+                    </div>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="infos-map fade-in-up delay-200">
+                    <iframe
+                        class="google-map"
+                        title="Location du CLUB VAUBAN - Rue Juhel, Le Quesnoy"
+                        src="https://www.google.com/maps?q=Rue+Juhel+59530+Le+Quesnoy&output=embed"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 CLUB VAUBAN. Association loi 1901. <a href="mentions-legales.html">Mentions Légales</a>.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

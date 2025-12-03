@@ -1,0 +1,15 @@
+{
+  "name": "IRON CLUB - CLUB VAUBAN",
+  "short_name": "CLUB VAUBAN",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#E50914",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "128x128",
+      "type": "image/svg+xml"
+    }
+  ]
+}
